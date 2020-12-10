@@ -1,0 +1,15 @@
+// BUTTONS
+
+.btn{
+ padding: .5rem 1rem;
+ text-transform: uppercase;
+ background: $btn-color;
+ border: 0;
+ cursor: pointer;
+ transition: background .4s;
+ &:hover {
+     background: gold;
+
+ }
+
+}

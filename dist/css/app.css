@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-size: 14px;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  background: #009cff;
+  border: 0;
+  cursor: pointer;
+  transition: background 0.4s;
+}
+
+.btn:hover {
+  background: gold;
+}
+
